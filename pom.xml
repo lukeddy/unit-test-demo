@@ -11,25 +11,7 @@
 	<name>unit-test-demo</name>
 	<description>Demo project for Spring Boot</description>
 
-	<scm>
-		<connection>scm:git:http://git.envisioncn.com/deyun.wu/unit-test-demo.git</connection>
-		<developerConnection>scm:git:http://git.envisioncn.com/deyun.wu/unit-test-demo.git</developerConnection>
-		<url>http://git.envisioncn.com/deyun.wu/unit-test-demo.git</url>
-	</scm>
-
-	<distributionManagement>
-		<repository>
-			<id>envision</id>
-			<name>Internal Releases</name>
-			<url>http://nexus.envisioncn.com/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>envision</id>
-			<name>Internal Snapshots</name>
-			<url>http://nexus.envisioncn.com/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
