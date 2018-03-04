@@ -5,7 +5,7 @@
 1.目录结构：
 maven倡导约定优于配置，而maven的约定目录结构为： src/main/java 源码目录  src/test/java 测试目录
 maven-surefire-plugin的test目标会自动执行测试源码路径（默认为src/test/java/）下所有符合一组命名模式的测试类:
-+ **/Test**.java：任何子目录下所有命名以Test开头的Java类
++ * */Test* *.java：任何子目录下所有命名以Test开头的Java类
 + **/*Test.java：任何子目录下所有命名以Test结尾的Java类
 + **/*Tests.java ：任何子目录下所有命名以Tests结尾的Java类
 + **/*TestCase.java：任何子目录下所有命名以TestCase结尾的Java类
