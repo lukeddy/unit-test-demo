@@ -1,4 +1,3 @@
-[![build status](http://git.envisioncn.com/deyun.wu/unit-test-demo/badges/master/build.svg)](http://git.envisioncn.com/deyun.wu/unit-test-demo/commits/master)
 
 # unit-test-demo 工程相关
 
