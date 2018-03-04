@@ -2,6 +2,10 @@
 # unit-test-demo 工程相关
 
 ## maven 
+Maven本身并不是一个单元测试框架，它只是在构建执行到特定生命周期阶段的时候，通过插件maven-surefire-plugin来执行Junit 、TestNG、Mockito、Springboot Test的测试用例。
+
+包括CI/CD 基本上都是围绕maven
+
 1.目录结构：
 maven倡导约定优于配置，而maven的约定目录结构为： src/main/java 源码目录  src/test/java 测试目录
 maven-surefire-plugin的test目标会自动执行测试源码路径（默认为src/test/java/）下所有符合一组命名模式的测试类:
@@ -18,6 +22,9 @@ maven-surefire-plugin的test目标会自动执行测试源码路径（默认为s
 1）.纯文本
 2）.xml文件格式的
 默认情况下，这些文件生成在工程的${basedir}/target/surefire-reports，目录下（basedir指的是pom文件所在的目录）
+
+4.maven-surefire-plugin高级用法
+
 
 ## 测试覆盖率
 Jacoco是一个开源的Java代码覆盖率工具，Jacoco可以嵌入到Ant 、Maven中，并提供了EclEmma Eclipse插件,也可以使用JavaAgent技术监控Java程序。
