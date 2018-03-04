@@ -1,0 +1,13 @@
+stages:
+  - build
+build_job:
+  script:
+    - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent test org.jacoco:jacoco-maven-plugin:report package verify sonar:sonar
+    - cat target/site/jacoco/index.html
+    - scm 1.0.0
+  stage: build
+  only:
+    - master
+  tags:
+    - java
+    - docker
