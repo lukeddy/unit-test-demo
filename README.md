@@ -56,7 +56,7 @@ maven倡导约定优于配置（sonar、gitlab-ci会自动搜索该目录），�
 
 + [Exception](https://github.com/junit-team/junit4/wiki/Exception-testing)
 + [Parameters](https://github.com/junit-team/junit4/wiki/Parameterized-tests)
-[see demo](./test/java/com/example/ut/demo/mvc/TaskControllerTests.java)
+[see demo](./src/test/java/com/example/ut/demo/mvc/TaskControllerTests.java)
 
 ## 
 ## [Mockito](https://github.com/mockito/mockito/wiki)
