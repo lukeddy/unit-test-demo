@@ -20,8 +20,8 @@ maven-surefire-plugin的test目标会自动执行测试源码路径（默认为s
 
 3.输出
 它会产生两种不同形式的测试结果报告：
-1）.纯文本
-2）.xml文件格式的
++ 1. 纯文本
++ 2. xml文件格式的
 默认情况下，这些文件生成在工程的${basedir}/target/surefire-reports，目录下（basedir指的是pom文件所在的目录）
 
 4.maven-surefire-plugin高级用法
@@ -34,7 +34,7 @@ Jacoco是一个开源的Java代码覆盖率工具，Jacoco可以嵌入到Ant 、
 + 1. 添加jacoco-maven-plugin
 + 2. 运行mvn test
 maven倡导约定优于配置（sonar、gitlab-ci会自动搜索该目录），输出目录${basedir}/target/site/jacoco
-+ 3.查看jacoco报告
++ 3. 查看jacoco报告
 打开浏览器，在URL栏输入<工程地址>/target/site/jacoco/index.html
 
 
