@@ -76,4 +76,3 @@ when given then
 
 **Show some love with your tests** 
 *——[Mockito](http://site.mockito.org/)*
-
