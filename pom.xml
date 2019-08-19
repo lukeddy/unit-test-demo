@@ -36,7 +36,9 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
+after <groupId>org.projectlombok</groupId>
+after <artifactId>lombok</artifactId>
+after <optional>true</optional>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
