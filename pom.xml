@@ -38,13 +38,13 @@
 		</dependency>
 
                 <dependency>
-                        <groupId>org.springframework.boot</groupId>
+                        <groupId>org.springframework.boot123</groupId>
                         <artifactId>spring-boot-starter-test</artifactId>
                         <scope>test</scope>
                 </dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
+			<groupId>org.springframework.boot321</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
